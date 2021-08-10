@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe 建置使用中檔案",
+			"command": "E:\\MinGW\\bin\\g++.exe",
+			"args": [
+				"-g3",
+				"-Wall",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "E:\\MinGW\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "編譯器: E:\\MinGW\\bin\\g++.exe"
+		},
+		{
+			"type": "shell",
+			"label": "C/C++: g++.exe Run And Build Directory",
+			"command": "E:\\MinGW\\bin\\g++.exe",
+			"args": [
+				"-g3",
+				"-Wall",
+				"${fileDirname}\\*.cpp",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "E:\\MinGW\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "編譯器: E:\\MinGW\\bin\\g++.exe"
+		}
+	]
+}
