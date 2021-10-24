@@ -4,7 +4,7 @@
 		{
 			"type": "cppbuild",
 			"label": "C/C++: g++.exe 建置使用中檔案",
-			"command": "D:\\MinGW\\bin\\g++.exe",
+			"command": "g++.exe",
 			"args": [
 				"-g3",
 				"-Wall",
@@ -13,18 +13,18 @@
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
-				"cwd": "D:\\MinGW\\bin"
+				"cwd": "D:\\msys64\\bin"
 			},
 			"problemMatcher": [
 				"$gcc"
 			],
 			"group": "build",
-			"detail": "編譯器: D:\\MinGW\\bin\\g++.exe"
+			"detail": "編譯器: D:\\msys64\\mingw64\\bin\\g++.exe"
 		},
 		{
 			"type": "shell",
 			"label": "C/C++: g++.exe Run And Build Directory",
-			"command": "D:\\MinGW\\bin\\g++.exe",
+			"command": "g++.exe",
 			"args": [
 				"-g3",
 				"-Wall",
@@ -33,13 +33,13 @@
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
-				"cwd": "D:\\MinGW\\bin"
+				"cwd": "D:\\msys64\\mingw64\\bin"
 			},
 			"problemMatcher": [
 				"$gcc"
 			],
 			"group": "build",
-			"detail": "編譯器: D:\\MinGW\\bin\\g++.exe"
+			"detail": "編譯器: D:\\msys64\\mingw64\\bin\\g++.exe"
 		}
 	]
 }
