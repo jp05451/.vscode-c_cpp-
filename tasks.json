@@ -4,7 +4,7 @@
       "type": "shell",
       "label": "C/C++: g++.exe build active directory",
       //"command": "D:\\msys64\\mingw64\\bin\\g++.exe",
-      "command": "D:\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe",
+      "command": "D:\\mingw-w64\\x86_64-8.1.0-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe",
       "args": [
         "-g3",
         "-Wall",
